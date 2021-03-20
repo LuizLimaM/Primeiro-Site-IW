@@ -49,4 +49,24 @@
     margin-left: 300px;
     margin-right: 300px;
 
- }  
+ }
+
+ a:link{
+ 	color: #9725a5;
+ 	text-decoration: underline;
+ }
+
+ a:visited{
+ 	color: #fdbf60;
+ 	text-decoration: underline;
+ }
+
+ a:hover{
+ 	color: #f07d60;
+ 	text-decoration: underline;
+ }
+
+ a:active{
+ 	color: #d2449a;
+ 	text-decoration: underline;
+ }
