@@ -1,15 +1,16 @@
+  
  body{ 
- 	background-image: url(../img/sitewallpaper.jpg);
- 	margin-top: 30px;
+    background-image: url(../img/sitewallpaper.jpg);
+    margin-top: 30px;
     margin-right: 100px;
     margin-left: 100px;
     margin-bottom: 40px;
- 	background-repeat: repeat-y;
- background-size: 1400px 835px;
+    background-repeat: repeat-y;
+    background-size: 1400px 835px;
  }
 
  h1{ 
- 	font-family: sans-serif;
+    font-family: sans-serif;
     color: #e2dceb;
     outline-style: solid;
     outline-color: #3a1560;
@@ -19,7 +20,7 @@
  }
 
  h2{
- 	font-family: sans-serif;
+    font-family: sans-serif;
     color: #e2dceb;
     outline-style: solid;
     outline-color: #6b5b95;
@@ -29,22 +30,22 @@
  }
 
  h3{
- 	font-family: sans-serif;
+    font-family: sans-serif;
     color: #e2dceb;
     text-align: center;
  }
 
  ul,p{ 
- 	font-family: sans-serif;
- 	font-size: large;
+    font-family: sans-serif;
+    font-size: large;
     color: #e2dceb;
     text-align: center;
  }
 
  figure{
- 	background-color: white;
- 	outline-style: outset;
- 	outline-color: #4040a1;
+    background-color: white;
+    outline-style: outset;
+    outline-color: #4040a1;
     text-align: center;
     margin-left: 300px;
     margin-right: 300px;
@@ -52,21 +53,21 @@
  }
 
  a:link{
- 	color: #9725a5;
- 	text-decoration: underline;
+    color: #9725a5;
+    text-decoration: underline;
  }
 
  a:visited{
- 	color: #fdbf60;
- 	text-decoration: underline;
+    color: #fdbf60;
+    text-decoration: underline;
  }
 
  a:hover{
- 	color: #f07d60;
- 	text-decoration: underline;
+    color: #f07d60;
+    text-decoration: underline;
  }
 
  a:active{
- 	color: #d2449a;
- 	text-decoration: underline;
+    color: #d2449a;
+    text-decoration: underline;
  }
