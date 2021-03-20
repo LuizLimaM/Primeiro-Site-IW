@@ -1,0 +1,52 @@
+ body{ 
+ 	background-image: url(../img/sitewallpaper.jpg);
+ 	margin-top: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+ 	background-repeat: repeat-y;
+ 	background-size: 1400px 842px;
+ }
+
+ h1{ 
+ 	font-family: sans-serif;
+    color: #e2dceb;
+    outline-style: solid;
+    outline-color: #3a1560;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+ }
+
+ h2{
+ 	font-family: sans-serif;
+    color: #e2dceb;
+    outline-style: solid;
+    outline-color: #6b5b95;
+    text-align: center;
+    margin-left: 370px;
+    margin-right: 370px;
+ }
+
+ h3{
+ 	font-family: sans-serif;
+    color: #e2dceb;
+    text-align: center;
+ }
+
+ ul,p{ 
+ 	font-family: sans-serif;
+ 	font-size: large;
+    color: #e2dceb;
+    text-align: center;
+ }
+
+ figure{
+ 	background-color: white;
+ 	outline-style: outset;
+ 	outline-color: #4040a1;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+
+ }  
