@@ -1,12 +1,12 @@
   
  body{ 
     background-image: url(../img/sitewallpaper.jpg);
-    margin-top: 30px;
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-bottom: 40px;
+    margin-top: 3%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 3%;
     background-repeat: repeat-y;
-    background-size: 1400px 835px;
+    background-size: 200% 130%;
  }
 
  h1{ 
