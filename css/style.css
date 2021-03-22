@@ -1,43 +1,37 @@
   
-body{ 
+ body{ 
     background-image: url(../img/sitewallpaper.jpg);
-    margin-top: 30px;
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-bottom: 40px;
+    margin-top: 5%;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 5%;
     background-repeat: repeat-y;
-    background-size: 1400px 835px;
  }
 
  h1{ 
     font-family: sans-serif;
-    color: #e2dceb;
-    outline-style: solid;
-    outline-color: #3a1560;
+    font-size: 220%;
+    color: #e2dceb;  
     text-align: center;
-    margin-left: 150px;
-    margin-right: 150px;
  }
 
  h2{
     font-family: sans-serif;
+    font-size: 155%;
     color: #e2dceb;
-    outline-style: solid;
-    outline-color: #6b5b95;
     text-align: center;
-    margin-left: 370px;
-    margin-right: 370px;
  }
 
  h3{
     font-family: sans-serif;
+    font-size: 130%;
     color: #e2dceb;
     text-align: center;
  }
 
  ul,p{ 
     font-family: sans-serif;
-    font-size: large;
+    font-size: 110%;
     color: #e2dceb;
     text-align: center;
  }
@@ -46,9 +40,10 @@ body{
     background-color: white;
     outline-style: outset;
     outline-color: #4040a1;
+    outline-width: 100%;
     text-align: center;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 25%;
+    margin-right: 25%;
 
  }
 
@@ -71,3 +66,5 @@ body{
     color: #d2449a;
     text-decoration: underline;
  }
+
+ 
