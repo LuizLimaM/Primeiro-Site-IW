@@ -11,29 +11,49 @@
  h1{ 
     font-family: sans-serif;
     font-size: 220%;
-    color: #e2dceb;  
+    color: #e2dceb; 
     text-align: center;
+    width: 100%;
  }
 
  h2{
     font-family: sans-serif;
     font-size: 155%;
-    color: #e2dceb;
+    color: #fdbf60;;
     text-align: center;
+    width: 100%;
  }
 
  h3{
     font-family: sans-serif;
     font-size: 130%;
-    color: #e2dceb;
+    color: #fdbf60;
     text-align: center;
+    width: 100%;
  }
 
- ul,p{ 
+ ul li,ol li,p{ 
     font-family: sans-serif;
     font-size: 110%;
     color: #e2dceb;
     text-align: center;
+    width: 100%;
+ }
+
+ table{
+    font-family: sans-serif;
+    font-size: 110%;
+    font-weight: bolder;
+    color: #bb6cff;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+ }
+
+ td,th{
+    border: 5px solid #bb6cff;
+    text-align: center;
+    padding: 8px;
  }
 
  figure{
@@ -50,21 +70,26 @@
  a:link{
     color: #9725a5;
     text-decoration: underline;
+    width: 100%;
  }
 
  a:visited{
     color: #fdbf60;
     text-decoration: underline;
+    width: 100%;
  }
 
  a:hover{
     color: #f07d60;
     text-decoration: underline;
+    width: 100%;
  }
 
  a:active{
     color: #d2449a;
     text-decoration: underline;
+    width: 100%;
  }
 
+ 
  
