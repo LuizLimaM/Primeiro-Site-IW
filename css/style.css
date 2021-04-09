@@ -2,34 +2,53 @@
  body{ 
     background-image: url(../img/sitewallpaper.jpg);
     margin-top: 5%;
-    margin-right: 15%;
-    margin-left: 15%;
     margin-bottom: 5%;
     background-repeat: repeat-y;
+ }
+
+ .container{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+ }
+
+ header,footer{
+    background-color: rgba(255, 170, 0,0.8);
+    padding: 2%;
+
  }
 
  h1{ 
     font-family: sans-serif;
     font-size: 220%;
+    font-weight: bolder;
     color: #e2dceb; 
     text-align: center;
     width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
  }
 
  h2{
     font-family: sans-serif;
     font-size: 155%;
+    font-weight: bolder;
     color: #fdbf60;;
     text-align: center;
     width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
  }
 
  h3{
     font-family: sans-serif;
     font-size: 130%;
+    font-weight: bolder;
     color: #fdbf60;
     text-align: center;
     width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
  }
 
  ul li,ol li,p{ 
@@ -38,6 +57,8 @@
     color: #e2dceb;
     text-align: center;
     width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
  }
 
  table{
@@ -48,12 +69,24 @@
     text-align: center;
     border-collapse: collapse;
     width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
  }
 
  td,th{
     border: 5px solid #bb6cff;
     text-align: center;
     padding: 8px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+ }
+
+ .destaque2{
+    color: #aa48ff;
+ }
+
+ .destaque{
+    color: #cc91ff;
  }
 
  figure{
@@ -64,6 +97,8 @@
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 
  }
 
@@ -71,25 +106,32 @@
     color: #9725a5;
     text-decoration: underline;
     width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
  }
 
  a:visited{
     color: #fdbf60;
     text-decoration: underline;
     width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
  }
 
  a:hover{
     color: #f07d60;
     text-decoration: underline;
     width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
  }
 
  a:active{
     color: #d2449a;
     text-decoration: underline;
     width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
  }
 
- 
  
