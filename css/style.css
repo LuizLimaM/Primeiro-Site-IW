@@ -1,8 +1,10 @@
+
   
  body{ 
     background-image: url(../img/sitewallpaper.jpg);
-    margin-top: 1.5%;
     background-repeat: repeat-y;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
  }
 
  .container{
@@ -14,14 +16,13 @@
  header,footer{
     background-color: rgba(255, 170, 0,0.8);
     padding: 2%;
-    margin-bottom: 3%;
  }
 
  h1{ 
-    font-family: sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 220%;
     font-weight: bolder;
-    color: #f6f6f6; 
+    color: #f6f6f6;
     text-align: center;
     width: 100%;
     margin-top: 2%;
@@ -29,10 +30,10 @@
  }
 
  h2{
-    font-family: sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 155%;
     font-weight: bolder;
-    color: #fdbf60;;
+    color: #fdbf60;
     text-align: center;
     width: 100%;
     margin-top: 2%;
@@ -40,7 +41,7 @@
  }
 
  h3{
-    font-family: sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 130%;
     font-weight: bolder;
     color: #fdbf60;
@@ -51,7 +52,7 @@
  }
 
  ul li,ol li,p{ 
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 110%;
     color: #f6f6f6;
     text-align: center;
@@ -61,7 +62,7 @@
  }
 
  table{
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 110%;
     font-weight: bolder;
     color: #bb6cff;
@@ -137,5 +138,4 @@
     font-weight: bolder;
 
  }
-
  
