@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="shortcut icon"  href="img/favicon.ico">
+	<title>Entendendo o Position</title>
+</head>
+<style type="text/css">
+
+	.fixo{
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+		background-color: #004128;
+	}
+
+	.main{
+		margin-top: 8%;
+	}
+
+	.container{
+		position: relative;
+		background-color: #0c935f;
+		width: 100%;
+		height: 1200px;
+		text-align: center;
+	}
+
+	.topoesquerda{
+		position: absolute;
+		background-color: #006c42;
+		top: 3%;
+		left: 3%;
+		font-size: 20px;
+		font-family: monospace;
+		color: #f6f6f6;
+
+	}
+
+	.topodireita{
+		position: absolute;
+		background-color: #006c42;
+		top: 3%;
+		right: 3%;
+		font-size: 20px;
+		font-family: monospace;
+		color: #f6f6f6;
+
+	}
+
+	.abaixoesquerda{
+		position: absolute;
+		background-color: #006c42;
+		bottom: 3%;
+		left: 3%;
+		font-size: 20px;
+		font-family: monospace;
+		color: #f6f6f6;
+
+	}
+
+	.abaixodireita{
+		position: absolute;
+		background-color: #006c42;
+		bottom: 3%;
+	    right: 3%;
+		font-size: 20px;
+		font-family: monospace;
+		color: #f6f6f6;
+
+	}
+
+	.centro{
+	    position: absolute;
+	    background-color: #006c42;
+	    top: 50%;
+	    font-size: 20px;
+	    font-family: monospace;
+	    color: #f6f6f6;
+	    margin-left: 50%;
+	    margin-right: 50%;
+
+	}
+
+	.paginicial{
+		text-align: center;
+	}
+
+	body{
+		background-color: #006c42;
+	}
+	
+	h1{
+		font-size: 220%;
+		font-family: monospace;
+		color: #f6f6f6;
+		width: 100%;
+		text-align: center;
+	}
+
+	h2{
+		font-size: 175%;
+		font-family: monospace;
+		color: #ded1bd;
+		width: 100%;
+		text-align: center;
+	}
+
+	a:link,a:visited,a:hover,a:active{
+		font-size: 100%;
+		font-family: monospace;
+		width: 100%;
+		text-decoration: underline;
+		color: #f6f6f6;
+		width: 100%;
+	}
+
+</style>
+<body>
+	<header class="fixo">
+		<h1>TESTE DE POSICIONAMENTO</h1>
+	</header>
+    <div class="main">
+    	<h2>Testando...</h2>
+	    <div class="container">
+	    	<div class="topoesquerda">NO TOPO ESQUERDA</div>
+	    	<div class="topodireita">NO TOPO DIREITA</div>
+	    	<div class="abaixoesquerda">ABAIXO ESQUERDA</div>
+	    	<div class="abaixodireita">ABAIXO DIREITA</div>
+	    	<div class="centro">CENTRO</div>
+		
+	    </div>
+
+    </div>
+
+    <footer>
+     <p class="paginicial"><a href="index.html">Voltar para página inicial</a></p>
+
+    </footer>
+</body>
+</html>
