@@ -14,16 +14,33 @@ body{
 
 
 header, footer{
-		text-align: justify;
 		width: 100%;
         background-color: #596d5e; 	
-	    padding: 10px;
 	   	position: relative;
 		display: flex;
 		flex-direction: column;
+		padding: 10px;
 		align-items: center;
 	    font-size: 120%;
 		line-height: 1.5;
+		text-align: justify;
+}
+
+.imgtexto {
+	    text-align: center;
+	    width: 25%;
+	    margin-left:35%; 
+	    margin-bottom: 3%;
+}
+
+.imgtr img {
+		transition: 0.5s;
+		border-radius: 10%;
+}
+
+.imgtr img:hover{
+    	transform: scale(1.2);
+    	transition: 0.5s;
 }
 
 
@@ -115,22 +132,7 @@ header, footer{
 	}
 }
 
-.imgtexto {
-	    text-align: center;
-	    width: 25%;
-	    margin-left:35%; 
-	    margin-bottom: 3%;
-}
 
-.imgtr img {
-		transition: 0.5s;
-		border-radius: 10%;
-}
-
-.imgtr img:hover{
-    	transform: scale(1.2);
-    	transition: 0.5s;
-}
 
 figure{
 	text-align: center;
@@ -163,6 +165,54 @@ figure{
 		left: 0;
 }	
 	
+
+li {
+
+	text-align: center;
+}
+
+
+th {
+	font-weight: bold;
+	padding: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 4px solid #000000;
+         
+}
+
+ a:link{
+    color: #f1cfcd;
+    text-decoration: underline;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+ }
+
+ a:visited{
+    color: #f1cfcd;
+    text-decoration: underline;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+ }
+
+ a:hover{
+    color: #e59fa2;
+    text-decoration: underline;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+ }
+
+ a:active{
+    color: #ce9ca4;
+    text-decoration: underline;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+ }
+
 .texto {
 
 	width: 99.5%;
@@ -246,51 +296,3 @@ figure{
 	    margin-right: 5%;    
 			
 }
-
-li {
-
-	text-align: center;
-}
-
-
-th {
-	font-weight: bold;
-	padding: 1%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border: 4px solid #000000;
-         
-}
-
- a:link{
-    color: #f1cfcd;
-    text-decoration: underline;
-    width: 100%;
-    margin-top: 2%;
-    margin-bottom: 2%;
- }
-
- a:visited{
-    color: #f1cfcd;
-    text-decoration: underline;
-    width: 100%;
-    margin-top: 2%;
-    margin-bottom: 2%;
- }
-
- a:hover{
-    color: #e59fa2;
-    text-decoration: underline;
-    width: 100%;
-    margin-top: 2%;
-    margin-bottom: 2%;
- }
-
- a:active{
-    color: #ce9ca4;
-    text-decoration: underline;
-    width: 100%;
-    margin-top: 2%;
-    margin-bottom: 2%;
- }
-
