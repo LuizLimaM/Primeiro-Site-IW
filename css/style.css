@@ -26,6 +26,7 @@ header, footer{
 		text-align: justify;
 }
 
+
 .imgtexto {
 	    text-align: center;
 	    width: 25%;
@@ -34,19 +35,310 @@ header, footer{
 }
 
 .imgtr img {
-		transition: 0.5s;
 		border-radius: 10%;
 }
 
-.imgtr img:hover{
-    	transform: scale(1.1);
-    	transition: 0.5s;
+
+
+figure{
+	text-align: center;
+}
+
+.menu-opcoes{
+ 
+		text-align: center;
+}
+
+.ajustes li:hover{
+    	transform: scale(1.5);
+    	transition: 0.2s;
+} 
+
+.container{
+
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		z-index: 1030;
+
+}	
+
+.fixo{
+
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+}	
+
+.fixo a{
+	font-size: 85%;
+}
+
+.item{
+	position: relative;
+	margin: 10px 0px;
+
+}
+
+li {
+
+	text-align: center;
 }
 
 
+th {
+	font-weight: bold;
+	padding: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 4px solid #000000;
+         
+}
+
+ a:link{
+    color: #f1cfcd;
+    text-decoration: underline;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+ }
+
+ a:visited{
+    color: #f1cfcd;
+    text-decoration: underline;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+ }
+
+ a:hover{
+    color: #e59fa2;
+    text-decoration: underline;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+ }
+
+ a:active{
+    color: #ce9ca4;
+    text-decoration: underline;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+ }
+
+
+ .texto {
+
+	width: 99.5%;
+		
+ }
+	
+
+.text h2 {
+		text-align: justify;
+		font-family: 'Roboto Mono', monospace;
+    	font-size: 1.5em;
+    	font-weight: bolder;
+    	color: #cdc492;           
+	    margin-top: 5%;
+	    margin-bottom: 3%; 
+	    margin-left: 15%;
+}
+
+.text h3{
+	    text-align: justify;
+	    color: #79ab7b;
+	    font-size: 1.2em;
+	    font-weight: bolder; 
+	    margin-top: 5%;
+	    margin-bottom: 3%; 
+	   	margin-right: 50%;
+	    margin-left: 15%;
+} 
+
+.text p{
+		color: #f6f6f6;
+		font-size: 1em;
+		text-align: justify;
+	    margin-top: 2%;
+	 	margin-bottom: 2%;
+	 	margin-left: 15%;
+	 	margin-right: 15%;
+	 	padding-right: 1px;
+	 		
+}
+
+
+.text table{
+    font-family: 'Roboto', sans-serif;
+    font-size: 110%;
+    font-weight: bolder;
+    color: #f6f6f6;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: auto;
+    margin-left: auto;
+ }
+
+ .text td,th{
+    border: 5px solid #79ab7b;
+    text-align: center;
+    font-size: 95%;
+    padding: 2.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+ }
+
+.text th {  
+    border: 4px solid #79ab7b;
+    text-align: center;
+    padding: 1%;
+    margin-left: 5%;
+    margin-right: 5%;    
+			
+}
+
+.form{
+	background-color: #cdc492;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2.5%;
+
+}
+
+.form p{
+	color:#4d5d53; 
+	text-align: left;
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.dis{
+	margin-top: 2%;
+ 	margin-bottom: 2%;
+}
+input[type=text] {
+  width: 100px;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+}
+
+input[type=text], [type=email],[type=password], select, textarea{
+	width: 100%;
+	display: inline-block;
+	border: 2px solid #bfb788;
+	border-radius: 7.5px;
+	padding: 6px 5px;
+	box-sizing: border-box;
+}
+
+#sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#sobre .sobre{
+    text-align: center; 
+}
+
+#galeria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 2% 2%;
+    background-color: #79ab7b;
+
+}
+
+#galeria .galeria{
+    text-align: center;
+    padding-bottom: 15%;
+    padding-top: 25px;
+}
+
+#sobre h1{
+    font-size: 2em;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+#sobre h3{
+	font-family: 'Roboto Mono', monospace;
+    font-size: 1.2em;
+    padding: 2%;
+    color: #79ab7b;
+	font-weight: bolder; 
+}
+
+#sobre p{
+	font-family: 'Roboto Mono', monospace;
+	color: #f6f6f6;
+	font-size: 1em;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.imgsobre{
+    text-align: center;
+}
+
+.inicio{
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+   	font-size: 1.5em;
+    font-weight: bolder;
+    color: #cdc492;           
+	margin-top: 3%;
+	margin-bottom: 3%; 
+}
+.imggaleria{
+	width: 20%;
+	height: 20%;
+	border-radius: 30px;
+}
+
+input[type=submit]{
+	width: 100%;
+	color: #f6f6f6;
+	background-color: #688d76;
+	border: 2px solid #4d6054;
+	border-radius: 15px;
+	padding: 10px 10px;
+}
+input[type=submit]:active{
+	width: 100%;
+	color: #f6f6f6;
+	transform: scale(1.05);
+	transition: 0.1s;
+	background-color: #677469;
+	border: 2px solid #4d6054;
+	border-radius: 15px;
+	padding: 10px 10px;
+}
+
+
+fieldset{
+	width: 95.5%;
+	border: 2px solid #bfb788;
+	padding: 2%;
+}
+
+legend{
+	color: #4d5d53;
+}
+
 @media screen and (max-width: 599px){
 	.container{	
-        margin-top: 60%;
+        margin-top: 80%;
         font-size: 100%
     }
 
@@ -130,216 +422,27 @@ header, footer{
 		font-size: 1.3em;
 		margin-right: 40%;
 	}
+	#sobre, #galeria{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #sobre h1, h3, p{
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #sobre .sobre{
+        width: 25%;
+        text-align: center;
+    }
+    #galeria .galeria{
+        width: 25%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 1%;
+    }
 }
 
-
-
-figure{
-	text-align: center;
-}
-
-.menu-opcoes{
- 
-		text-align: center;
-}
-
-.ajustes li:hover{
-    	transform: scale(1.5);
-    	transition: 0.2s;
-} 
-
-.container{
-
-		margin-left: auto;
-		margin-right: auto;
-		position: relative;
-		z-index: 1030;
-
-}	
-
-.fixo{
-
-		position: fixed;
-		top: 0;
-		right: 0;
-		left: 0;
-}	
-	
-
-li {
-
-	text-align: center;
-}
-
-
-th {
-	font-weight: bold;
-	padding: 1%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border: 4px solid #000000;
-         
-}
-
- a:link{
-    color: #f1cfcd;
-    text-decoration: underline;
-    width: 100%;
-    margin-top: 2%;
-    margin-bottom: 2%;
- }
-
- a:visited{
-    color: #f1cfcd;
-    text-decoration: underline;
-    width: 100%;
-    margin-top: 2%;
-    margin-bottom: 2%;
- }
-
- a:hover{
-    color: #e59fa2;
-    text-decoration: underline;
-    width: 100%;
-    margin-top: 2%;
-    margin-bottom: 2%;
- }
-
- a:active{
-    color: #ce9ca4;
-    text-decoration: underline;
-    width: 100%;
-    margin-top: 2%;
-    margin-bottom: 2%;
- }
-
-.texto {
-
-	width: 99.5%;
-		
-}
-	
-
-.text h2 {
-		text-align: justify;
-		font-family: 'Roboto Mono', monospace;
-    	font-size: 1.5em;
-    	font-weight: bolder;
-    	color: #cdc492;           
-	    margin-top: 5%;
-	    margin-bottom: 3%; 
-	    margin-left: 15%;
-}
-
-.text h3{
-	    text-align: justify;
-	    color: #79ab7b;
-	    font-size: 1.2em;
-	    font-weight: bolder; 
-	    margin-top: 5%;
-	    margin-bottom: 3%; 
-	   	margin-right: 50%;
-	    margin-left: 15%;
-} 
-
-.text p{
-		color: #f6f6f6;
-		font-size: 1em;
-		text-align: justify;
-	    margin-top: 2%;
-	 	margin-bottom: 2%;
-	 	margin-left: 15%;
-	 	margin-right: 15%;
-	 	padding-right: 1px;
-	 		
-}
-
-
-.text table{
-    font-family: 'Roboto', sans-serif;
-    font-size: 110%;
-    font-weight: bolder;
-    color: #f6f6f6;
-    text-align: center;
-    border-collapse: collapse;
-    width: 100%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-right: auto;
-    margin-left: auto;
- }
-
- .text td,th{
-    border: 5px solid #79ab7b;
-    text-align: center;
-    font-size: 95%;
-    padding: 2.5%;
-    margin-top: 2%;
-    margin-bottom: 2%;
- }
-
-.text th {  
-        border: 4px solid #79ab7b;
-	    text-align: center;
-	    padding: 1%;
-	    margin-left: 5%;
-	    margin-right: 5%;    
-			
-}
-
-.form{
-	background-color: #cdc492;
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 2.5%;
-
-}
-
-.form p{
-	color:#4d5d53; 
-	text-align: left;
-	margin-left: 0;
-	margin-right: auto;
-}
-
-.dis{
-	margin-top: 2%;
- 	margin-bottom: 2%;
-}
-
-input[type=text], [type=email],[type=password], select, textarea{
-	width: 100%;
-	display: inline-block;
-	border: 2px solid #bfb788;
-	border-radius: 7.5px;
-	padding: 6px 5px;
-	box-sizing: border-box;
-}
-
-input[type=submit]{
-	width: 100%;
-	color: #f6f6f6;
-	background-color: #688d76;
-	border: 2px solid #4d6054;
-	border-radius: 15px;
-	padding: 10px 10px;
-}
-input[type=submit]:active{
-	width: 100%;
-	color: #f6f6f6;
-	background-color: #4d6054;
-	border: 2px solid #4d6054;
-	border-radius: 15px;
-	padding: 10px 10px;
-}
-
-fieldset{
-	width: 95.5%;
-	border: 2px solid #bfb788;
-	padding: 2%;
-}
-
-legend{
-	color: #4d5d53;
-}
