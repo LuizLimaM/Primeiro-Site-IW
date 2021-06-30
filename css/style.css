@@ -14,7 +14,7 @@ body{
 
 
 header, footer{
-		width: 100%;
+		width: 98.5%;
         background-color: #596d5e; 	
 	   	position: relative;
 		display: flex;
@@ -39,7 +39,7 @@ header, footer{
 }
 
 .imgtr img:hover{
-    	transform: scale(1.2);
+    	transform: scale(1.1);
     	transition: 0.5s;
 }
 
@@ -218,17 +218,7 @@ th {
 	width: 99.5%;
 		
 }
-
-.text h1 {
-		text-align: justify;
-		color: #2578BB;
-		font-size: 1.5em;
-		font-weight: bold; 
-	    margin-top: 5%;
-	   	margin-bottom: 3%; 
-	   	margin-right: 60%;
-	    margin-left: 15%;
-}
+	
 
 .text h2 {
 		text-align: justify;
@@ -295,4 +285,61 @@ th {
 	    margin-left: 5%;
 	    margin-right: 5%;    
 			
+}
+
+.form{
+	background-color: #cdc492;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2.5%;
+
+}
+
+.form p{
+	color:#4d5d53; 
+	text-align: left;
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.dis{
+	margin-top: 2%;
+ 	margin-bottom: 2%;
+}
+
+input[type=text], [type=email],[type=password], select, textarea{
+	width: 100%;
+	display: inline-block;
+	border: 2px solid #bfb788;
+	border-radius: 7.5px;
+	padding: 6px 5px;
+	box-sizing: border-box;
+}
+
+input[type=submit]{
+	width: 100%;
+	color: #f6f6f6;
+	background-color: #688d76;
+	border: 2px solid #4d6054;
+	border-radius: 15px;
+	padding: 10px 10px;
+}
+input[type=submit]:active{
+	width: 100%;
+	color: #f6f6f6;
+	background-color: #4d6054;
+	border: 2px solid #4d6054;
+	border-radius: 15px;
+	padding: 10px 10px;
+}
+
+fieldset{
+	width: 95.5%;
+	border: 2px solid #bfb788;
+	padding: 2%;
+}
+
+legend{
+	color: #4d5d53;
 }
