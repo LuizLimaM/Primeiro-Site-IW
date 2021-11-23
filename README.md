@@ -1,4 +1,4 @@
 # AulaIW
 
- * Primeiro [Site](https://luizlimam.github.io/AulasIW/) utilizando de HTML e CSS
+ * Primeiro [Site](https://luizlimam.github.io/Primeiro-Site-IW/) utilizando de HTML e CSS
 
